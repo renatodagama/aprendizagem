@@ -1,0 +1,6 @@
+Tabela de cores
+
+#14707B	Green
+#00755E	Tropical Rain Forest
+#5D8AA8	Air Force Blue (RAF)
+

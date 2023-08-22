@@ -1,0 +1,48 @@
+Tags HTML
+
+<!DOCTYPE html>
+Informa ao navegador que esse documento é do tipo HTML e sua versão. Quando está escrito apenas html, indica que é a mais recente
+
+<html>
+Representa a raiz do documento, serve com um container que engloba todos os outros elementos HTML.
+
+<body>
+É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML.
+
+<script>
+Esse elemento contém instruções de script ou aponta para um arquivo de script externo por meio do atributo src.
+
+<head>
+Compreende as informações do documento que serão interpretadas pelo navegador (metadados). Como por exemplo, título do documento, links para folhas de estilo etc.
+
+<meta>
+Define metadados, ou seja, informações sobre dados de um documento HTML. 
+As <meta> tags vão dentro do elemento <head> e são usadas para especificar o conjunto de caracteres, o autor do documento, as configurações da janela de visualização etc.
+
+<link>
+É uma tag vazia, que contém apenas atributos e faz a relação do documento HTML com recursos externos, é comumente usado para vincular uma folha de estilo externa, 
+também é usada para definir o favicon da página (ícone da aba do navegador), como outros recursos.
+
+<link rel="stylesheet" href="css/style.css">
+ linka o arquivo css com o html.
+
+<style>
+Essa tag é usada para declarar estilos (CSS) para um documento.
+
+<img loading="lazy" src="caminho da imagem">
+ sobe a imagem selecionada do caminho indicado.
+
+Tags semânticas
+Tags semânticas são tags que possuem um significado, que dão sentido a informação de texto ao navegador e buscadores, como por exemplo, 
+utilizar a tag <header> para cabeçalhos ou <article> para dar um significado de artigo para aquele bloco de texto, até mesmo <p> para indicar que aquele texto é um parágrafo, é uma boa prática tentar sempre utilizar essas tags semânticas para ajudar no entendimento do código, além de ajudar muito no SEO do site (Otimização para motores de busca, é o que ajuda o seu site a se rankear melhor nos motores de buscas como o Google). Segue abaixo a lista de tags semânticas citadas durante o artigo:
+
+<header>
+<main>
+<footer>
+<section>
+<article>
+<aside>
+<nav>
+<ol>
+<ul>
+<li>
